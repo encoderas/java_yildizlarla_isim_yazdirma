@@ -9,9 +9,9 @@ public class test {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		System.out.print("sayi gir: ");
+		System.out.print("enter size: ");
 		int sayi = scan.nextInt();
-		System.out.print("isim gir: ");
+		System.out.print("enter name: ");
 		scan.nextLine();
 		String mtn = scan.nextLine();
 		scan.close();
